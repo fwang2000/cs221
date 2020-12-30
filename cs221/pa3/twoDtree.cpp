@@ -187,11 +187,6 @@ int twoDtree::idealPrune(int leaves){
 
 			}
 
-			if (tol == 15376 || tol == 49 || tol == 0) {
-
-				return tol;
-			}
-
 			return tol + 1;
 		}
 	}
